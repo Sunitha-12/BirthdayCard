@@ -1,0 +1,82 @@
+/* BirthdayCard.css */
+
+.birthday-container {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f4f8;
+  border-radius: 10px;
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 150px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  height: 420px;
+}
+
+.head {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  padding: 5px;
+}
+
+.img:hover {
+  transform: scale(1.05);
+}
+
+.con {
+  margin-top: -30px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.con:hover {
+  transform: translateY(-5px);
+}
+
+.age {
+  font-size: 20px;
+  color: #666;
+  margin: 0;
+}
+
+.name {
+  font-size: 20px;
+  color: #111;
+  margin: 0;
+  font-weight: 600;
+}
+
+.btn {
+  background-color: #ff6b6b;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: background-color 0.3s ease;
+  position: relative;
+  top: 100px;
+  left: -170px;
+}
+
+.btn:hover {
+  background-color: #e55050;
+}
